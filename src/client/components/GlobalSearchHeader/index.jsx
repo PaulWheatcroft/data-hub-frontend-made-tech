@@ -95,7 +95,7 @@ function GlobalSearchHeader({
       )
   )
   return (
-    <GlobalSearchHeaderRowContainer>
+    <GlobalSearchHeaderRowContainer data-test="global-search-header">
       <GlobalSearchHeaderRow actions={actions}>
         <StyledDiv>
           <StyledHeaderText>
